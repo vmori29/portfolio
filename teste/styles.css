@@ -1,0 +1,176 @@
+.oswald-fonte {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+/* Reset default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color */
+body {
+    background-color: #f7f7f7;
+}
+
+/* Style header */
+header {
+    background-color: #7a87ff;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+nav li a:hover {
+    background-color: #3027a8;
+    border-radius: 1rem;
+}
+
+/* Style main section */
+main {
+    padding: 2rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.robocup{
+    display: block;
+  margin-left: 10rem;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 1rem;
+}
+
+.grape{
+    display: block;
+  margin-left: 10rem;
+  width: 50%;
+  border-radius: 1rem;
+}
+
+.container2{
+    position: relative;
+    width: 100%;
+}
+
+.overlay2{
+    border-radius: 1rem;
+    margin-left: 10rem;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #4400ff;
+    overflow: hidden;
+    width: 30%;
+    height: 0;
+    transition: .5s ease;
+}
+.container2:hover .overlay2 {
+    bottom: 0;
+    height: 100%;
+  }
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+
+  .overlay {
+    border-radius: 1rem;
+    margin-left: 10rem;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #4400ff;
+    overflow: hidden;
+    width: 50%;
+    height: 0;
+    transition: .5s ease;
+  }
+
+  .container:hover .overlay  {
+    bottom: 0;
+    height: 100%;
+  }
+
+  .text {
+    font-family: "Poppins", sans-serif;
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Style footer */
+footer {
+    background-color: #333;
+    padding: 0.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.contacto{
+    padding: 3px;
+}
+
+.fa-brands{
+    font-size: 2rem;
+}
+
+.nave{
+    font-family: "Poppins", sans-serif;
+}
